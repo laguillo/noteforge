@@ -33,7 +33,6 @@ import {
   AlignRight,
   AlignJustify,
   Plus,
-  Moon,
   ChevronDown,
   Superscript,
   Subscript,
@@ -391,17 +390,6 @@ const RichTextEditor = ({ content, noteId }: RichTextEditorProps) => {
         >
           <Plus className="h-4 w-4" />
           Add
-        </Button>
-
-        <div className="w-px h-6 bg-border mx-1" />
-
-        {/* Theme Toggle */}
-        <Button
-          variant="ghost"
-          size="sm"
-          className="size-8 p-0 text-muted-foreground hover:text-foreground hover:bg-accent"
-        >
-          <Moon className="h-4 w-4" />
         </Button>
       </div>
 
