@@ -39,7 +39,9 @@ export async function AppSidebar({
           <h2>NoteForge</h2>
         </div>
 
-        <SearchForm />
+        <React.Suspense>
+          <SearchForm />
+        </React.Suspense>
       </SidebarHeader>
       <SidebarContent className="gap-0">
         <SidebarData data={data} />
